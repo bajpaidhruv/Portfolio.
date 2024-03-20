@@ -1,6 +1,6 @@
 var typed=new Typed(".text",{
-    strings:["Frontend Devloper","DSA With Java","Web Devloper","Python",],
-    typeSpeed:60,
+    strings:["Full Stack Devloper","Python Devloper","Java Devloper",],
+    typeSpeed:30,
     backSpeed:60,
     backDelay:500,
     loop:true
