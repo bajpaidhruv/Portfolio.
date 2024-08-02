@@ -231,7 +231,9 @@ body {
 .sub-title{
   text-align: center;
   font-size: 60px;
-  padding-bottom:4rem;
+  margin-bottom: 15px;
+  /* padding-left: 40px; */
+  margin-left: 30px;
 }
 .sub-title span{
   color:#0ef;
@@ -322,6 +324,7 @@ section{
   text-underline-offset: 10px;
   text-decoration-thickness:5px;
   margin-bottom: 50px;
+  font-size: 24px;
 }
 .bar{
   font-size: 23px;
@@ -381,14 +384,23 @@ section{
   width: 80%;
 }
 .progress-line.python span{
-  width: 85%;
+  width: 95%;
 }
 
 .progress-line.javascript span{
   width: 50%;
 }
 .progress-line.react span{
-  width: 89%;
+  width: 50%;
+}
+.progress-line.excel span{
+  width: 90%;
+}
+.progress-line.mysql span{
+  width: 85%;
+}
+.progress-line.java span{
+  width: 80%;
 }
 
 
@@ -422,10 +434,19 @@ section{
   content: "50%";
 }
 .progress-line.python span::after{
-  content: "85%";
+  content: "95%";
 }
 .progress-line.react span::after{
-  content: "89%";
+  content: "50%";
+}
+.progress-line.java span::after{
+  content: "80%";
+}
+.progress-line.excel span::after{
+  content: "90%";
+}
+.progress-line.mysql span::after{
+  content: "85%";
 }
 .progress-line span::before{
   content: "";
@@ -571,7 +592,8 @@ section{
   font-size:60px ;
   line-height: 1;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 72px;
+  margin-top: 40px;
 }
 .main-text h2 span{
   color:#0ef;
@@ -789,4 +811,9 @@ section{
   border-radius: 0.5rem;
   
 
+}
+.leetcode{
+  width: 3vw;
+  margin: 3px;
+  fill: red;
 }
